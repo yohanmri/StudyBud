@@ -1,0 +1,6 @@
+✔ Deactivate the broken virtual environment (deactivate).
+✔ Ensure the env folder is gone (dir or manually check).
+✔ Create a new virtual environment (python -m venv env).
+✔ Activate it (.\env\Scripts\Activate).
+✔ Upgrade pip (pip install --upgrade pip).
+✔ Reinstall dependencies (pip install -r requirements.txt).
