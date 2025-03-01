@@ -19,6 +19,12 @@ class Room(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     
     
+    class Meta:
+        
+        #if we do like updated instead using the - (dash) it will show in assending order
+        ordering = ['-updated', '-created']
+    
+    
     def __str__(self):
         return self.name
     
